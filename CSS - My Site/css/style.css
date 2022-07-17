@@ -1,0 +1,58 @@
+/* available font from fonts.google.com:
+font-family: 'Cormorant SC', serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Sacramento', cursive;
+*/
+
+body {
+  font-family: 'Cormorant SC', serif;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  font-size: 3.1rem;
+  font-family: 'Sacramento', cursive;
+  margin-top: 70px;
+}
+h2 {
+  font-family: 'Poiret One', cursive;
+}
+h3 {
+  font-size: 1.4rem;
+  font-family: 'Cormorant SC', serif;
+}
+
+div {
+  background-color: #F0EBE3;
+}
+.btn {
+  background: #E4DCCF;
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: 'Cormorant SC', serif;
+  color: #576F72;
+  font-size: 16px;
+  padding: 9px 20px 6px 20px;
+  text-decoration: none;
+}
+.bottom-container {
+  padding: 10px 0 20px;
+}
+.photo {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  margin-top: 70px;
+}
+.skill-row {
+  width: 40%;
+  margin: 100px auto 100px auto;
+  line-height: 1;
+  text-align: left;
+}
+.skill-logo {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}

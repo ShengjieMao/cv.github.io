@@ -1,0 +1,47 @@
+/* external css that can modify all pages of the the website */
+body {
+    background-color: #d3d4cc;
+}
+
+h1 {
+  color: #a29988;
+}
+
+h3 {
+  color: #f8ebd8;
+}
+
+h3:hover {
+  color: black;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 90%;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+
+
+
+/*
+img {
+  background-color: grey;
+}
+if want to change a specific class css eg. <img class="logo" src......>,
+the css code is:
+.logo {
+  background-color:...;
+}
+vs. a specific id eg. <h1 id="heading">test</h1>,
+css is:
+#heading {
+ background-color:...;
+}
+*/
